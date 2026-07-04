@@ -3,14 +3,14 @@
 import React, { useEffect, useState } from "react";
 import { useApp } from "@/context/AppContext";
 import { useRouter } from "next/navigation";
-import { Printer, Share2, ClipboardList, AlertTriangle, ArrowRight, Check, Landmark, Phone, Sparkles } from "lucide-react";
+import { Printer, Share2, ClipboardList, AlertTriangle, ArrowRight, Check, Landmark, Phone, Sparkles, Trash2 } from "lucide-react";
 import speciesData from "@/data/species.json";
 import schemesData from "@/data/schemes.json";
 import nurseriesData from "@/data/nurseries.json";
 
 export default function MyPlanPage() {
   const router = useRouter();
-  const { profile, savedPlan, language, t, convertLandToAcres } = useApp();
+  const { profile, savedPlan, language, t, convertLandToAcres, clearPlan } = useApp();
 
   const [savedSpecies, setSavedSpecies] = useState<any[]>([]);
   const [selectedScheme, setSelectedScheme] = useState<any | null>(null);
@@ -112,6 +112,18 @@ _Created on VrikshaMitra Agroforestry Platform_`;
         </div>
 
         <div className="flex items-center gap-3">
+          {/* Clear / Start New Plan button */}
+          <button
+            onClick={() => {
+              clearPlan();
+              router.push("/chat");
+            }}
+            className="px-4 py-2.5 bg-red-50 hover:bg-red-100 active:bg-red-200 text-red-700 font-extrabold rounded-xl shadow-sm transition-all flex items-center gap-1.5 text-xs md:text-sm border border-red-200"
+          >
+            <Trash2 className="w-4 h-4" />
+            Clear Plan
+          </button>
+
           {/* Print button */}
           <button
             onClick={handlePrint}
