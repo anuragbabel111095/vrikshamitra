@@ -1,27 +1,11 @@
 import { NextResponse } from "next/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import fs from "fs";
-import path from "path";
-
-// Load species and schemes data helper
-const loadData = () => {
-  try {
-    const speciesPath = path.join(process.cwd(), "src/data/species.json");
-    const schemesPath = path.join(process.cwd(), "src/data/schemes.json");
-    
-    const speciesData = JSON.parse(fs.readFileSync(speciesPath, "utf8"));
-    const schemesData = JSON.parse(fs.readFileSync(schemesPath, "utf8"));
-    return { speciesData, schemesData };
-  } catch (err) {
-    console.error("Error reading JSON databases:", err);
-    return { speciesData: [], schemesData: [] };
-  }
-};
+import speciesData from "@/data/species.json";
+import schemesData from "@/data/schemes.json";
 
 export async function POST(req: Request) {
   try {
     const { message, language, profile } = await handleReqBody(req);
-    const { speciesData, schemesData } = loadData();
 
     // Setup Gemini API client
     const apiKey = process.env.GEMINI_API_KEY || "";
