@@ -1,0 +1,231 @@
+[
+  {
+    "id": "har_medh_par_ped",
+    "name": {
+      "en": "Har Medh Par Ped (Sub-Mission on Agroforestry)",
+      "hi": "हर मेढ़ पर पेड़ (कृषि वानिकी उप-मिशन)",
+      "gu": "હર મેઢ પર પેડ (કૃષિ વનીકરણ સબ-મિશન)"
+    },
+    "min_land_acres": 0.5,
+    "max_land_acres": 15.0,
+    "component": {
+      "en": "Boundary & Bund Plantation",
+      "hi": "मेढ़ और सीमा वृक्षारोपण",
+      "gu": "શેઢા અને પાળ પર વૃક્ષારોપણ"
+    },
+    "subsidy_amount": {
+      "en": "Rs. 70 per surviving tree over 4 years (40%, 20%, 20%, 20% annual payouts)",
+      "hi": "4 वर्षों में प्रति जीवित पेड़ पर 70 रुपये (वार्षिक भुगतान: 40%, 20%, 20%, 20%)",
+      "gu": "૪ વર્ષમાં જીવંત રહેલા વૃક્ષ દીઠ રૂ. ૭૦ ની સહાય (વાર્ષિક હપ્તા: ૪૦%, ૨૦%, ૨૦%, ૨૦%)"
+    },
+    "required_documents": [
+      { "id": "aadhaar", "name": { "en": "Aadhaar Card", "hi": "आधार कार्ड", "gu": "આધાર કાર્ડ" } },
+      { "id": "land_record", "name": { "en": "Land Records (7/12 & 8-A)", "hi": "भूमि दस्तावेज (7/12 और 8-A)", "gu": "જમીનના ઉતારા (૭/૧૨ અને ૮-અ)" } },
+      { "id": "bank_passbook", "name": { "en": "Bank Passbook Copy", "hi": "बैंक पासबुक की प्रति", "gu": "બેંક પાસબુકની નકલ" } },
+      { "id": "khedut_id", "name": { "en": "i-Khedut Farmer Registration ID", "hi": "आई-खेड़ूत किसान पंजीकरण आईडी", "gu": "આઈ-ખેડૂત ખેડૂત રજીસ્ટ્રેશન આઈડી" } }
+    ],
+    "application_steps": {
+      "en": [
+        "Register on the official i-Khedut portal of Gujarat.",
+        "Select the 'Sub-Mission on Agroforestry (Har Medh Par Ped)' scheme.",
+        "Fill out land details and select the desired tree species.",
+        "Upload scanned copies of Aadhaar, 7/12, and Bank Passbook.",
+        "Submit the application and download the acknowledgment receipt.",
+        "Forest officer visits the farm after planting for physical verification.",
+        "Subsidy installment is credited to your bank account based on plant survival."
+      ],
+      "hi": [
+        "गुजरात के आधिकारिक आई-खेड़ूत (i-Khedut) पोर्टल पर पंजीकरण करें।",
+        "कृषि वानिकी उप-मिशन (हर मेढ़ पर पेड़) योजना का चयन करें।",
+        "भूमि का विवरण भरें और वांछित पेड़ों की प्रजातियों का चयन करें।",
+        "आधार, 7/12 और बैंक पासबुक की स्कैन की गई प्रतियां अपलोड करें।",
+        "आवेदन जमा करें और पावती रसीद डाउनलोड करें।",
+        "पौधे लगाने के बाद वन अधिकारी भौतिक सत्यापन के लिए खेत का दौरा करेंगे।",
+        "पौधों के जीवित रहने के आधार पर सब्सिडी की किस्त आपके बैंक खाते में जमा की जाएगी।"
+      ],
+      "gu": [
+        "ગુજરાતના સત્તાવાર આઈ-ખેડૂત (i-Khedut) પોર્ટલ પર નોંધણી કરો.",
+        "કૃષિ વનીકરણ યોજના (હર મેઢ પર પેડ) પસંદ કરો.",
+        "જમીનની વિગતો ભરો અને જોઈતી વૃક્ષ પ્રજાતિઓ પસંદ કરો.",
+        "આધાર કાર્ડ, ૭/૧૨ અને બેંક પાસબુકની નકલ અપલોડ કરો.",
+        "અરજી સબમિટ કરી પહોંચ ડાઉનલોડ કરો.",
+        "વાવેતર પછી વન વિભાગના અધિકારી સ્થળ તપાસ અને ચકાસણી કરશે.",
+        "રોપા જીવંત રહેવાને આધારે સીધા બેંક ખાતામાં સબસિડી જમા થશે."
+      ]
+    },
+    "department": {
+      "en": "Gujarat Forest Department (Social Forestry Wing)",
+      "hi": "गुजरात वन विभाग (सामाजिक वानिकी विंग)",
+      "gu": "ગુજરાત વન વિભાગ (સામાજિક વનીકરણ શાખા)"
+    }
+  },
+  {
+    "id": "social_forestry_nursery",
+    "name": {
+      "en": "Subsidized Saplings Scheme (Social Forestry Nurseries)",
+      "hi": "रियायती पौध योजना (सामाजिक वानिकी नर्सरी)",
+      "gu": "રાહત દરે રોપા વિતરણ યોજના (સામાજિક વનીકરણ નર્સરી)"
+    },
+    "min_land_acres": 0.1,
+    "max_land_acres": 20.0,
+    "component": {
+      "en": "Sapling Supply Assistance",
+      "hi": "पौध आपूर्ति सहायता",
+      "gu": "રોપા સહાય વિતરણ"
+    },
+    "subsidy_amount": {
+      "en": "First 100 saplings absolutely free, subsequent saplings at Rs. 1 to Rs. 2 per sapling",
+      "hi": "पहले 100 पौधे बिल्कुल मुफ्त, उसके बाद के पौधे 1 से 2 रुपये प्रति पौधा की दर पर",
+      "gu": "પ્રથમ ૧૦૦ રોપા તદ્દન મફત, ત્યારપછીના રોપા માત્ર રૂ. ૧ થી ૨ ના રાહત દરે"
+    },
+    "required_documents": [
+      { "id": "aadhaar", "name": { "en": "Aadhaar Card", "hi": "आधार कार्ड", "gu": "આધાર કાર્ડ" } },
+      { "id": "land_record", "name": { "en": "Land Possession Proof / Farmer ID", "hi": "भूमि स्वामित्व प्रमाण / किसान आईडी", "gu": "જમીન માલિકી પુરાવો / ખેડૂત પોથી" } }
+    ],
+    "application_steps": {
+      "en": [
+        "Identify and locate the nearest Government Social Forestry Nursery.",
+        "Visit the nursery depot with your Aadhaar Card and land proof details.",
+        "Fill up the physical application form specifying tree varieties needed.",
+        "Collect free saplings (up to 100) or pay Rs. 1-2 per sapling for additional count.",
+        "Get a delivery receipt from the Nursery Depot officer."
+      ],
+      "hi": [
+        "अपने नजदीकी सरकारी सामाजिक वानिकी नर्सरी की पहचान करें।",
+        "अपने आधार कार्ड और भूमि स्वामित्व प्रमाण के साथ नर्सरी डिपो पर जाएं।",
+        "वांछित पेड़ों की किस्मों को दर्शाते हुए भौतिक आवेदन पत्र भरें।",
+        "मुफ्त पौधे (100 तक) एकत्र करें या अतिरिक्त पौधों के लिए 1-2 रुपये प्रति पौधा भुगतान करें।",
+        "नर्सरी डिपो अधिकारी से वितरण रसीद प्राप्त करें।"
+      ],
+      "gu": [
+        "તમારા નજીકની સરકારી સામાજિક વનીકરણ નર્સરી/ડેપોની શોધ કરો.",
+        "આધાર કાર્ડ અને જમીનના પુરાવા સાથે નર્સરીની મુલાકાત લો.",
+        "ત્યાંથી મળતું ફોર્મ ભરી જોઈતા વૃક્ષોની સંખ્યા લખો.",
+        "૧૦૦ સુધી મફત રોપા મેળવો અથવા તેનાથી વધુ માટે રૂ. ૧-૨ લેખે ચૂકવણી કરો.",
+        "નર્સરી અધિકારી પાસેથી રોપા મેળવ્યાની પહોંચ લો."
+      ]
+    },
+    "department": {
+      "en": "Social Forestry Division, Gujarat Forest Department",
+      "hi": "सामाजिक वानिकी प्रभाग, गुजरात वन विभाग",
+      "gu": "સામાજિક વનીકરણ વિભાગ, ગુજરાત વન વિભાગ"
+    }
+  },
+  {
+    "id": "horticulture_subsidy",
+    "name": {
+      "en": "Integrated Horticulture Scheme (Fruit Crops Subsidy)",
+      "hi": "एकीकृत बागवानी योजना (फलदार फसलों पर सब्सिडी)",
+      "gu": "એકીકૃત બાગાયત વિકાસ યોજના (ફળ પાક સહાય)"
+    },
+    "min_land_acres": 1.0,
+    "max_land_acres": 10.0,
+    "component": {
+      "en": "Fruit Orchards & Boundary Planting (Mango, Amla, Ber, Sitafal)",
+      "hi": "फलों के बाग और मेढ़ पर रोपण (आम, आंवला, बेर, सीताफल)",
+      "gu": "ફળ પાક વાવેતર સહાય (આંબો, આમળા, બોરડી, सीताફળ)"
+    },
+    "subsidy_amount": {
+      "en": "40% to 50% subsidy on plant cost (up to Rs. 20,000 per hectare) for selected fruit saplings",
+      "hi": "चयनित फलों के पौधों की लागत पर 40% से 50% सब्सिडी (अधिकतम 20,000 रुपये प्रति हेक्टेयर)",
+      "gu": "પસંદગીના ફળ રોપાના ખર્ચ પર ૪૦% થી ૫૦% સબસિડી (હેક્ટર દીઠ મહત્તમ રૂ. ૨૦,૦૦૦ સુધી)"
+    },
+    "required_documents": [
+      { "id": "aadhaar", "name": { "en": "Aadhaar Card", "hi": "आधार कार्ड", "gu": "આધાર કાર્ડ" } },
+      { "id": "land_record", "name": { "en": "Land Records (7/12 & 8-A)", "hi": "भूमि दस्तावेज (7/12 और 8-A)", "gu": "જમીનના ઉતારા (૭/૧૨ અને ૮-અ)" } },
+      { "id": "bank_passbook", "name": { "en": "Bank Passbook Copy", "hi": "बैंक पासबुक की प्रति", "gu": "બેંક પાસબુકની નકલ" } },
+      { "id": "khedut_id", "name": { "en": "i-Khedut Online Registration Certificate", "hi": "आई-खेड़ूत ऑनलाइन पंजीकरण प्रमाणपत्र", "gu": "આઈ-ખેડૂત ઓનલાઇન રજીસ્ટ્રેશન પ્રમાણપત્ર" } }
+    ],
+    "application_steps": {
+      "en": [
+        "Login to i-Khedut website when horticulture applications are open.",
+        "Apply for 'Subsidy for Fruit Crops Plantation'.",
+        "Input land holding size, crop selection (e.g., Mango, Ber) and submit details.",
+        "Obtain printout of the application form and sign it.",
+        "Submit physically or upload online along with 7/12, 8-A, Aadhaar, and Bank copy.",
+        "Get prior approval from the Horticulture Officer before buying plants.",
+        "Buy saplings from Government nurseries or registered private nurseries.",
+        "Horticulture Inspector inspects the plot, then the subsidy is released."
+      ],
+      "hi": [
+        "आई-खेड़ूत वेबसाइट पर लॉग इन करें जब बागवानी आवेदन खुले हों।",
+        "'फलदार फसलों के रोपण पर सब्सिडी' के लिए आवेदन करें।",
+        "भूमि का आकार और फल फसल (जैसे आम, बेर) का चयन करें और जमा करें।",
+        "आवेदन पत्र का प्रिंटआउट लें और उस पर हस्ताक्षर करें।",
+        "7/12, 8-A, आधार और बैंक पासबुक कॉपी के साथ ऑनलाइन अपलोड या कार्यालय में जमा करें।",
+        "पौधे खरीदने से पहले बागवानी अधिकारी से पूर्व-मंजूरी प्राप्त करें।",
+        "सरकारी नर्सरी या पंजीकृत निजी नर्सरी से पौधे खरीदें।",
+        "बागवानी निरीक्षक द्वारा सत्यापन के बाद सब्सिडी बैंक खाते में स्थानांतरित कर दी जाएगी।"
+      ],
+      "gu": [
+        "જ્યારે ફોર્મ ભરાવાના શરૂ થાય ત્યારે આઈ-ખેડૂત પોર્ટલ ખોલો.",
+        "'ફળઝાડ વાવેતર સહાય' યોજના પર ઓનલાઇન અરજી કરો.",
+        "જમીન ધારણ વિગત અને ફળ પાક (આંબો, બોરડી વગેરે) લખી સબમિટ કરો.",
+        "અરજી ફોર્મની પ્રિન્ટ કાઢી તેના પર સહી કરો.",
+        "૭/૧૨, ૮-અ, આધાર કાર્ડ અને બેંક વિગત સાથે ફોર્મ અપલોડ અથવા કચેરીએ જમા કરો.",
+        "રોપા ખરીદતા પહેલા બાગાયત અધિકારીની પૂર્વ-મંજૂરી મેળવો.",
+        "સરકારી નર્સરી અથવા રજીસ્ટર્ડ ખાનગી નર્સરીમાંથી ગુણવત્તાયુક્ત રોપા ખરીદો.",
+        "બાગાયત નિરીક્ષકની સ્થળ મુલાકાત પછી સબસીડી મંજૂર કરવામાં આવશે."
+      ]
+    },
+    "department": {
+      "en": "Directorate of Horticulture, Agriculture and Farmers Welfare Department",
+      "hi": "बागवानी निदेशालय, कृषि और किसान कल्याण विभाग",
+      "gu": "બાગાયત નિયામકશ્રીની કચેરી, કૃષિ અને ખેડૂત કલ્યાણ વિભાગ"
+    }
+  },
+  {
+    "id": "tribal_agroforestry_subplan",
+    "name": {
+      "en": "Tribal Agroforestry Assistance (Vanbandhu Kalyan Yojana)",
+      "hi": "जनजातीय कृषि वानिकी सहायता (वनबंधु कल्याण योजना)",
+      "gu": "આદિવાસી કૃષિ વનીકરણ સહાય (વનબંધુ કલ્યાણ યોજના)"
+    },
+    "min_land_acres": 0.5,
+    "max_land_acres": 5.0,
+    "component": {
+      "en": "Block / Bund Forestry for ST Farmers (Teak, Melia Dubia)",
+      "hi": "एसटी किसानों के लिए ब्लॉक / मेढ़ वानिकी (सागवान, महानिम)",
+      "gu": "આદિવાસી ખેડૂતો માટે ખેતી વિષયક વનીકરણ (સાગ, મલબાર લીમડો)"
+    },
+    "subsidy_amount": {
+      "en": "100% free saplings + Rs. 15,000 per acre maintenance grant distributed over 3 years",
+      "hi": "100% मुफ्त पौधे + 15,000 रुपये प्रति एकड़ रखरखाव अनुदान जो 3 वर्षों में वितरित होगा",
+      "gu": "૧૦૦% મફત રોપા + રૂ. ૧૫,૦૦૦ પ્રતિ એકર નિભાવ ભથ્થું જે ૩ વર્ષમાં ચૂકવવામાં આવશે"
+    },
+    "required_documents": [
+      { "id": "aadhaar", "name": { "en": "Aadhaar Card", "hi": "आधार कार्ड", "gu": "આધાર કાર્ડ" } },
+      { "id": "caste_cert", "name": { "en": "Scheduled Tribe (ST) Certificate", "hi": "अनुसूचित जनजाति (ST) प्रमाण पत्र", "gu": "અનુસૂચિત જનજાતિ (ST) પ્રમાણપત્ર" } },
+      { "id": "land_record", "name": { "en": "Land Rights Certificate (7/12 or Forest Rights Act Patta)", "hi": "भूमि अधिकार प्रमाण पत्र (7/12 या वन अधिकार पट्टा)", "gu": "જમીન અધિકાર પત્રક (૭/૧૨ અથવા વન અધિકાર પટ્ટો)" } },
+      { "id": "bank_passbook", "name": { "en": "Bank Account Details", "hi": "बैंक खाता विवरण", "gu": "બેંક ખાતાની વિગત" } }
+    ],
+    "application_steps": {
+      "en": [
+        "Apply through the local Integrated Tribal Development Project (ITDP) office.",
+        "Submit Caste Certificate and land ownership details (or FRA Patta).",
+        "ITDP coordinates with Forest Department to sanction tree quotas.",
+        "Collect sanctioned timber saplings (Teak, Melia Dubia) from Forest nursery.",
+        "ITDP / Forest officers visit the farm annually to check survival and release the maintenance grant."
+      ],
+      "hi": [
+        "स्थानीय एकीकृत जनजातीय विकास परियोजना (ITDP) कार्यालय के माध्यम से आवेदन करें।",
+        "जाति प्रमाण पत्र और भूमि स्वामित्व विवरण (या वन अधिकार पट्टा) जमा करें।",
+        "ITDP वन विभाग के साथ मिलकर पेड़ कोटा स्वीकृत करता है।",
+        "वन नर्सरी से स्वीकृत इमारती लकड़ी के पौधे (सागवान, महानिम) एकत्र करें।",
+        "ITDP / वन अधिकारी जीवित पौधों की जांच करने और रखरखाव अनुदान जारी करने के लिए प्रतिवर्ष खेत का दौरा करते हैं।"
+      ],
+      "gu": [
+        "સ્થાનિક સંકલિત આદિજાતિ વિકાસ યોજના (ITDP) કચેરી દ્વારા અરજી કરો.",
+        "આદિવાસી હોવાનો દાખલો અને જમીનની વિગત (અથવા વન અધિકાર પટ્ટો) રજૂ કરો.",
+        "ITDP વન વિભાગ સાથે સંકલન કરી રોપાના ક્વોટા મંજૂર કરશે.",
+        "મંજૂર થયેલા ઇમારતી રોપા (સાગ, આરડુ) સરકારી ડેપોમાંથી મેળવો.",
+        "દર વર્ષે અધિકારી ખેતરની મુલાકાત લઈ વૃક્ષ બચાવ ટકાવારી અનુસાર ભથ્થું મંજૂર કરશે."
+      ]
+    },
+    "department": {
+      "en": "Tribal Development Department, Government of Gujarat",
+      "hi": "जनजातीय विकास विभाग, गुजरात सरकार",
+      "gu": "આદિજાતિ વિકાસ વિભાગ, ગુજરાત સરકાર"
+    }
+  }
+]

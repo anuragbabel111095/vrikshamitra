@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf9; /* Stone-50 */
+  --foreground: #1c1917; /* Stone-900 */
+  
+  --color-emerald-850: #022c22; /* Custom deep forest green */
+  --color-amber-850: #b45309; /* Custom warm terracotta */
+  
+  --font-sans: var(--font-inter), var(--font-gujarati), var(--font-devanagari), system-ui, sans-serif;
+}
+
+@theme {
+  --color-emerald-850: var(--color-emerald-850);
+  --color-amber-850: var(--color-amber-850);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(2, 44, 34, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(2, 44, 34, 0.4);
+}
+
+/* Safari and mobile safe padding */
+.pb-safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

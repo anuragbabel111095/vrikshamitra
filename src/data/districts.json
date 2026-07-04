@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ahmedabad",
+    "name": "Ahmedabad",
+    "zone": "Central Gujarat",
+    "talukas": ["Daskroi", "Sanand", "Bavla", "Dholka", "Viramgam", "Dhandhuka"]
+  },
+  {
+    "id": "junagadh",
+    "name": "Junagadh",
+    "zone": "Saurashtra",
+    "talukas": ["Junagadh", "Mendarda", "Visavadar", "Keshod", "Mangrol", "Manavadar"]
+  },
+  {
+    "id": "anand",
+    "name": "Anand",
+    "zone": "Central Gujarat",
+    "talukas": ["Anand", "Umreth", "Petlad", "Borsad", "Sojitra", "Khambhat"]
+  },
+  {
+    "id": "mehsana",
+    "name": "Mehsana",
+    "zone": "North Gujarat",
+    "talukas": ["Mehsana", "Visnagar", "Kadi", "Kalol", "Becharaji", "Vadnagar"]
+  },
+  {
+    "id": "rajkot",
+    "name": "Rajkot",
+    "zone": "Saurashtra",
+    "talukas": ["Rajkot", "Gondal", "Jetpur", "Dhoraji", "Morbi", "Jasdan"]
+  },
+  {
+    "id": "surat",
+    "name": "Surat",
+    "zone": "South Gujarat",
+    "talukas": ["Surat City", "Choryasi", "Olpad", "Kamrej", "Bardoli", "Mahuva"]
+  },
+  {
+    "id": "vadodara",
+    "name": "Vadodara",
+    "zone": "Central Gujarat",
+    "talukas": ["Vadodara", "Dabhoi", "Karjan", "Padra", "Savli", "Vaghodia"]
+  },
+  {
+    "id": "kutch",
+    "name": "Kutch",
+    "zone": "Kutch",
+    "talukas": ["Bhuj", "Anjar", "Gandhidham", "Mandvi", "Mundra", "Nakhatrana", "Lakhpat"]
+  },
+  {
+    "id": "sabarkantha",
+    "name": "Sabarkantha",
+    "zone": "North Gujarat",
+    "talukas": ["Himatnagar", "Idar", "Prantij", "Talod", "Khedbrahma", "Vadali"]
+  },
+  {
+    "id": "valsad",
+    "name": "Valsad",
+    "zone": "South Gujarat",
+    "talukas": ["Valsad", "Pardi", "Vapi", "Dharampur", "Kaprada", "Umbergaon"]
+  }
+]

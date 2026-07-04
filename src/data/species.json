@@ -1,0 +1,247 @@
+[
+  {
+    "id": "subabul",
+    "name": { "en": "Subabul", "hi": "सुबबूल", "gu": "સુબાબુલ" },
+    "zones": ["Saurashtra", "North Gujarat", "Central Gujarat", "South Gujarat", "Kutch"],
+    "soil": ["loamy", "black_cotton", "sandy", "saline"],
+    "water_need": "low",
+    "goals": ["fodder", "fuelwood", "income", "soil_improvement"],
+    "harvest_cycle_years": 4,
+    "income_timeline": [
+      { "year": 2, "yield": "Fodder cutting & small poles", "est_value_per_acre_inr": 8000 },
+      { "year": 4, "yield": "Pulpwood & timber harvest", "est_value_per_acre_inr": 25000 }
+    ],
+    "crop_compatibility": { "good_with": ["groundnut", "bajra", "cotton"], "avoid_with": ["low_light_crops"] },
+    "image": "linear-gradient(135deg, #15803d 0%, #166534 100%)",
+    "description": {
+      "en": "Fast-growing leguminous tree excellent for fodder, fuelwood, and nitrogen-fixing. Ideal for planting on bunds to shield crops.",
+      "hi": "तेजी से बढ़ने वाला फलीदार पेड़ जो चारे, ईंधन की लकड़ी और नाइट्रोजन-स्थिरीकरण के लिए उत्कृष्ट है। फसलों की सुरक्षा के लिए मेड़ों पर लगाने के लिए आदर्श है।",
+      "gu": "ઝડપથી વધતું કઠોળ વર્ગનું ઝાડ જે પશુચારો, બળતણ અને જમીનમાં નાઇટ્રોજન વધારવા માટે ઉત્તમ છે. પાકને સુરક્ષિત કરવા માટે શેઢા-પાળ પર રોપવા માટે આદર્શ."
+    }
+  },
+  {
+    "id": "eucalyptus",
+    "name": { "en": "Eucalyptus (Nilgiri)", "hi": "नीलगिरी", "gu": "નીલગીરી" },
+    "zones": ["Central Gujarat", "South Gujarat", "North Gujarat", "Saurashtra"],
+    "soil": ["loamy", "clayey", "black_cotton"],
+    "water_need": "medium",
+    "goals": ["income", "fuelwood"],
+    "harvest_cycle_years": 5,
+    "income_timeline": [
+      { "year": 3, "yield": "First pole thinning & scaffolding poles", "est_value_per_acre_inr": 15000 },
+      { "year": 5, "yield": "Major harvest for paper mills & poles", "est_value_per_acre_inr": 60000 }
+    ],
+    "crop_compatibility": { "good_with": [], "avoid_with": ["groundnut", "cotton", "bajra", "wheat"] },
+    "image": "linear-gradient(135deg, #0f766e 0%, #115e59 100%)",
+    "description": {
+      "en": "Highly profitable timber tree used widely for paper pulp and construction scaffolding. Best planted on far outer boundaries due to water/light competition.",
+      "hi": "अत्यधिक लाभदायक लकड़ी का पेड़ जिसका उपयोग पेपर पल्प और निर्माण मचानों के लिए किया जाता है। जल और धूप की प्रतिस्पर्धा के कारण इसे खेतों के बाहरी किनारों पर लगाना सबसे अच्छा होता है।",
+      "gu": "પેપર પલ્પ અને બાંધકામ માટે વપરાતું અત્યંત નફાકારક ઈમારતી લાકડાનું ઝાડ. પાણી અને પ્રકાશની ખેંચને કારણે ખેતરના દૂરના શેઢા પર વાવવું યોગ્ય છે."
+    }
+  },
+  {
+    "id": "babul",
+    "name": { "en": "Babul (Acacia)", "hi": "बबूल", "gu": "દેશી બાવળ" },
+    "zones": ["Saurashtra", "North Gujarat", "Kutch", "Central Gujarat"],
+    "soil": ["sandy", "saline", "black_cotton", "loamy"],
+    "water_need": "low",
+    "goals": ["fodder", "fuelwood", "soil_improvement"],
+    "harvest_cycle_years": 8,
+    "income_timeline": [
+      { "year": 3, "yield": "Fodder leaves & gum collection", "est_value_per_acre_inr": 5000 },
+      { "year": 8, "yield": "Hardwood timber & high-quality charcoal", "est_value_per_acre_inr": 40000 }
+    ],
+    "crop_compatibility": { "good_with": ["bajra", "mustard", "pulses"], "avoid_with": ["cotton"] },
+    "image": "linear-gradient(135deg, #b45309 0%, #78350f 100%)",
+    "description": {
+      "en": "Tough desert tree that thrives in saline, degraded soils. Produces strong timber and nutritious fodder for goats and sheep.",
+      "hi": "कठोर मरुस्थलीय पेड़ जो खारी और खराब मिट्टी में पनपता है। बकरियों और भेड़ों के लिए मजबूत लकड़ी और पौष्टिक चारा प्रदान करता है।",
+      "gu": "ખારાશવાળી અને ખરાબ જમીનમાં પણ ઉગી જતું મજબૂત ઝાડ. ઘેટા-બકરા માટે પૌષ્ટિક ચારો અને મજબૂત લાકડું પૂરું પાડે છે."
+    }
+  },
+  {
+    "id": "neem",
+    "name": { "en": "Neem (Limbdo)", "hi": "नीम", "gu": "લીમડો" },
+    "zones": ["Saurashtra", "North Gujarat", "Central Gujarat", "South Gujarat", "Kutch"],
+    "soil": ["sandy", "loamy", "black_cotton", "saline"],
+    "water_need": "low",
+    "goals": ["income", "soil_improvement", "shade"],
+    "harvest_cycle_years": 10,
+    "income_timeline": [
+      { "year": 4, "yield": "Neem seeds & leaves for biopesticides", "est_value_per_acre_inr": 6000 },
+      { "year": 10, "yield": "High-value furniture timber", "est_value_per_acre_inr": 75000 }
+    ],
+    "crop_compatibility": { "good_with": ["cotton", "groundnut", "pulses"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #047857 0%, #065f46 100%)",
+    "description": {
+      "en": "Universal medicinal tree. Acts as a windbreak, provides organic pesticide seed material, and turns into highly valued pest-resistant timber.",
+      "hi": "सार्वभौमिक औषधीय पेड़। हवा की रोकथाम के लिए उपयोगी, जैविक कीटनाशक बीज सामग्री प्रदान करता है, और अत्यधिक मूल्यवान कीट-प्रतिरोधी लकड़ी में बदल जाता है।",
+      "gu": "બહુગુણી ઔષધીય વૃક્ષ. પવન રોકવા, ઓર્ગેનિક દવા બનાવવા લીંબોળી આપવા અને કિંમતી તેમજ ઉધઈ ન લાગે તેવું લાકડું મેળવવા માટે શ્રેષ્ઠ."
+    }
+  },
+  {
+    "id": "teak",
+    "name": { "en": "Teak (Sagwan)", "hi": "सागवान", "gu": "સાગ" },
+    "zones": ["South Gujarat", "Central Gujarat", "Saurashtra"],
+    "soil": ["loamy", "black_cotton"],
+    "water_need": "medium",
+    "goals": ["income"],
+    "harvest_cycle_years": 15,
+    "income_timeline": [
+      { "year": 5, "yield": "First poles thinning", "est_value_per_acre_inr": 10000 },
+      { "year": 10, "yield": "Second poles thinning & construction wood", "est_value_per_acre_inr": 30000 },
+      { "year": 15, "yield": "Premium quality teak hardwood harvest", "est_value_per_acre_inr": 150000 }
+    ],
+    "crop_compatibility": { "good_with": ["pulses"], "avoid_with": ["wheat", "cotton"] },
+    "image": "linear-gradient(135deg, #a16207 0%, #713f12 100%)",
+    "description": {
+      "en": "The king of timber. Highly lucrative long-term investment. Prefers well-drained soils and requires irrigation access in the first few dry seasons.",
+      "hi": "इमारती लकड़ी का राजा। अत्यधिक लाभदायक दीर्घकालिक निवेश। अच्छी जल निकासी वाली मिट्टी पसंद करता है और शुरुआती कुछ सूखे मौसमों में सिंचाई की आवश्यकता होती है।",
+      "gu": "ઈમારતી લાકડાનો રાજા. લાંબા ગાળાના રોકાણ માટે ખૂબ જ ફાયદાકારક. જળ નિકાલવાળી ફળદ્રુપ જમીન પસંદ કરે છે અને શરૂઆતમાં પિયતની જરૂર પડે છે."
+    }
+  },
+  {
+    "id": "melia_dubia",
+    "name": { "en": "Melia Dubia (Ardu)", "hi": "अरडू (महानिम)", "gu": "મલબાર લીમડો (આરડુ)" },
+    "zones": ["Central Gujarat", "South Gujarat", "North Gujarat"],
+    "soil": ["loamy", "black_cotton"],
+    "water_need": "medium",
+    "goals": ["income", "fuelwood"],
+    "harvest_cycle_years": 6,
+    "income_timeline": [
+      { "year": 3, "yield": "Pulpwood thinning for paper industry", "est_value_per_acre_inr": 12000 },
+      { "year": 6, "yield": "Plywood logs commercial harvest", "est_value_per_acre_inr": 80000 }
+    ],
+    "crop_compatibility": { "good_with": ["groundnut", "pulses"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #16a34a 0%, #15803d 100%)",
+    "description": {
+      "en": "Extremely fast-growing plywood tree with straight trunks and canopy ideal for agroforestry, allowing light penetration for understory crops.",
+      "hi": "सीधे तने वाला बेहद तेजी से बढ़ने वाला प्लाईवुड पेड़, कृषि वानिकी के लिए इसका चंदवा आदर्श है क्योंकि यह फसलों के लिए हल्की धूप छनकर आने देता है।",
+      "gu": "પ્લાયવુડ ઉદ્યોગ માટે ખૂબ ઝડપથી વધતું વૃક્ષ, જેનો સીધો સ્તંભ અને હળવો છાંયો પાક સાથે આંતરખેતી માટે ઉત્તમ વાતાવરણ આપે છે."
+    }
+  },
+  {
+    "id": "mango",
+    "name": { "en": "Mango (Keri)", "hi": "आम", "gu": "આંબો (કેરી)" },
+    "zones": ["Saurashtra", "South Gujarat", "Central Gujarat"],
+    "soil": ["loamy", "black_cotton"],
+    "water_need": "medium",
+    "goals": ["fruit", "income"],
+    "harvest_cycle_years": 5,
+    "income_timeline": [
+      { "year": 3, "yield": "First mango fruit harvest (Kesar/Alphonso)", "est_value_per_acre_inr": 10000 },
+      { "year": 5, "yield": "Commercial scale fruit marketing", "est_value_per_acre_inr": 35000 },
+      { "year": 8, "yield": "Peak fruit yield & stable annual revenue", "est_value_per_acre_inr": 80000 }
+    ],
+    "crop_compatibility": { "good_with": ["pulses"], "avoid_with": ["sugarcane"] },
+    "image": "linear-gradient(135deg, #eab308 0%, #ca8a04 100%)",
+    "description": {
+      "en": "Grafted mangoes yield high-value fruits within 3-5 years. Excellent cash crop for boundaries with access to watering systems.",
+      "hi": "कलमी आम 3-5 वर्षों में उच्च मूल्य के फल देने लगते हैं। सिंचाई प्रणालियों की पहुंच वाले मेड़ों के लिए उत्कृष्ट नकदी फसल।",
+      "gu": "કલમી આંબો ૩-૫ વર્ષમાં ફળ આપવાનું શરૂ કરે છે. પિયતની સગવડ હોય ત્યાં શેઢા-પાળ પર વાવવા માટે ઉત્તમ રોકડીયો પાક."
+    }
+  },
+  {
+    "id": "casuarina",
+    "name": { "en": "Casuarina (Saru)", "hi": "सफेदा (शारू)", "gu": "સરુ" },
+    "zones": ["South Gujarat", "Saurashtra"],
+    "soil": ["sandy", "saline", "loamy"],
+    "water_need": "medium",
+    "goals": ["income", "fuelwood"],
+    "harvest_cycle_years": 4,
+    "income_timeline": [
+      { "year": 2, "yield": "Thinning poles for construction supports", "est_value_per_acre_inr": 5000 },
+      { "year": 4, "yield": "Scaffolding poles & paper pulp harvest", "est_value_per_acre_inr": 45000 }
+    ],
+    "crop_compatibility": { "good_with": ["groundnut"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "description": {
+      "en": "Very narrow, tall conifer-like tree. Ideal for coastal districts of Gujarat as windbreaks and soil binders. Strong resistance to sea breeze and salinity.",
+      "hi": "बहुत संकीर्ण, लंबा शंकुधारी जैसा पेड़। गुजरात के तटीय जिलों में हवा रोकने और मिट्टी को बांधने के लिए आदर्श। समुद्री हवा और खारेपन के प्रति मजबूत प्रतिरोधी।",
+      "gu": "સાંકડું અને ઊંચું વધતું ઝાડ. પવન રોકવા અને જમીનનું ધોવાણ અટકાવવા માટે ગુજરાતના દરિયાકાંઠાના જિલ્લાઓ માટે બેસ્ટ. ખારાશ સામે ટકી શકે છે."
+    }
+  },
+  {
+    "id": "ber",
+    "name": { "en": "Ber (Bor)", "hi": "बेर", "gu": "બોરડી" },
+    "zones": ["Kutch", "Saurashtra", "North Gujarat"],
+    "soil": ["sandy", "saline", "loamy", "black_cotton"],
+    "water_need": "low",
+    "goals": ["fruit", "fodder", "income"],
+    "harvest_cycle_years": 2,
+    "income_timeline": [
+      { "year": 1, "yield": "First light fruit harvest", "est_value_per_acre_inr": 8000 },
+      { "year": 2, "yield": "Regular high-yield fruit harvest", "est_value_per_acre_inr": 20000 },
+      { "year": 5, "yield": "Peak fruit production (Gola/Umran varieties)", "est_value_per_acre_inr": 45000 }
+    ],
+    "crop_compatibility": { "good_with": ["bajra", "pulses"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #84cc16 0%, #65a30d 100%)",
+    "description": {
+      "en": "Extremely drought-tolerant fruit tree that grows in poor, saline soils. Provides delicious fruits and leaves used as high-protein animal feed.",
+      "hi": "अत्यधिक सूखा-सहिष्णु फल का पेड़ जो खराब, खारी मिट्टी में बढ़ता है। स्वादिष्ट फल और उच्च प्रोटीन वाले पशु चारा के रूप में उपयोग की जाने वाली पत्तियां प्रदान करता है।",
+      "gu": "દુષ્કાળ સામે ટકી શકતી બોરડી નબળી અને ક્ષારવાળી જમીનમાં પણ ઉગી જાય છે. મીઠા ફળ અને પશુઓ માટે પૌષ્ટિક પાંદડા પૂરા પાડે છે."
+    }
+  },
+  {
+    "id": "amla",
+    "name": { "en": "Amla", "hi": "आंवला", "gu": "આમળા" },
+    "zones": ["North Gujarat", "Saurashtra", "Central Gujarat", "Kutch"],
+    "soil": ["sandy", "loamy", "saline", "clayey"],
+    "water_need": "low",
+    "goals": ["fruit", "income"],
+    "harvest_cycle_years": 4,
+    "income_timeline": [
+      { "year": 3, "yield": "First organic fruit yield", "est_value_per_acre_inr": 7000 },
+      { "year": 4, "yield": "Commercial harvesting of Amla fruits", "est_value_per_acre_inr": 22000 },
+      { "year": 8, "yield": "Peak fruit yield for ayurvedic processors", "est_value_per_acre_inr": 60000 }
+    ],
+    "crop_compatibility": { "good_with": ["pulses"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #22c55e 0%, #15803d 100%)",
+    "description": {
+      "en": "Highly nutritious fruit crop known for its extreme hardiness. Starts bearing fruit quickly and has constant demand in health and cosmetic industries.",
+      "hi": "अपनी अत्यधिक कठोरता के लिए जाना जाने वाला अत्यधिक पौष्टिक फल। जल्दी फल देने लगता है और स्वास्थ्य एवं सौंदर्य उद्योगों में इसकी निरंतर मांग बनी रहती है।",
+      "gu": "ખૂબ જ પૌષ્ટિક ફળ આપતું કઠણ વૃક્ષ. ઝડપથી ફળ આપે છે અને આયુર્વેદિક ઉદ્યોગોમાં આમળાની બારેમાસ માંગ રહે છે."
+    }
+  },
+  {
+    "id": "sitafal",
+    "name": { "en": "Custard Apple (Sitafal)", "hi": "शरीफा (सीताफल)", "gu": "સીતાફળ" },
+    "zones": ["Saurashtra", "North Gujarat", "Central Gujarat"],
+    "soil": ["loamy", "sandy", "black_cotton"],
+    "water_need": "low",
+    "goals": ["fruit", "income"],
+    "harvest_cycle_years": 3,
+    "income_timeline": [
+      { "year": 2, "yield": "First trial fruits", "est_value_per_acre_inr": 5000 },
+      { "year": 3, "yield": "Commercial custard apple fruits marketing", "est_value_per_acre_inr": 18000 },
+      { "year": 6, "yield": "Peak fruit yield and bulk sales to ice cream makers", "est_value_per_acre_inr": 40000 }
+    ],
+    "crop_compatibility": { "good_with": ["groundnut", "pulses"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #10b981 0%, #047857 100%)",
+    "description": {
+      "en": "Grows well on rocky, dry hillsides and bunds. Fruits are in massive demand by ice-cream manufacturers. Cattle do not eat its leaves (natural fence).",
+      "hi": "पथरीली, सूखी पहाड़ियों और मेड़ों पर अच्छी तरह उगता है। आइसक्रीम निर्माताओं द्वारा फलों की भारी मांग रहती है। मवेशी इसके पत्ते नहीं खाते (प्राकृतिक बाड़)।",
+      "gu": "પથરાળ અને સૂકી જમીનમાં પણ સરસ ઉગી જાય છે. આઈસ્ક્રીમ ઉદ્યોગમાં સીતાફળના પલ્પની ભારે માંગ હોય છે. પશુઓ તેના પાન ખાતા નથી એટલે કુદરતી રક્ષણ મળે છે."
+    }
+  },
+  {
+    "id": "gliricidia",
+    "name": { "en": "Gliricidia", "hi": "ग्लिरिसिडिया", "gu": "ગ્લીરીસીડીયા" },
+    "zones": ["South Gujarat", "Central Gujarat", "Saurashtra"],
+    "soil": ["loamy", "clayey", "black_cotton", "sandy"],
+    "water_need": "low",
+    "goals": ["fodder", "soil_improvement"],
+    "harvest_cycle_years": 1,
+    "income_timeline": [
+      { "year": 1, "yield": "Organic green manure pruning and boundary fence", "est_value_per_acre_inr": 4000 },
+      { "year": 2, "yield": "Regular leaf pruning for nitrogen compost & firewood", "est_value_per_acre_inr": 10000 }
+    ],
+    "crop_compatibility": { "good_with": ["cotton", "groundnut", "pulses"], "avoid_with": [] },
+    "image": "linear-gradient(135deg, #4ade80 0%, #22c55e 100%)",
+    "description": {
+      "en": "Widely known as 'Quick Stick'. Primarily planted on boundary bunds as a living green fence, yielding massive quantities of nitrogen-rich green manure.",
+      "hi": "इसे 'क्विक स्टिक' के नाम से जाना जाता है। मुख्य रूप से हरी खाद के रूप में मेड़ों पर लगाया जाता है, जिससे प्रचुर मात्रा में नाइट्रोजन युक्त हरी खाद मिलती है।",
+      "gu": "શેઢા-પાળ પર જીવંત વાડ તરીકે ખૂબ અનુકૂળ. જમીનની ફળદ્રુપતા વધારવા માટે આના પાનનું સેન્દ્રિય ખાતર ઉત્તમ ગણાય છે."
+    }
+  }
+]

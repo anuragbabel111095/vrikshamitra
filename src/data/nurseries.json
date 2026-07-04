@@ -1,0 +1,172 @@
+[
+  {
+    "id": "nursery_ahmedabad",
+    "name": {
+      "en": "Vastrapur Social Forestry Nursery",
+      "hi": "वस्त्रापुर सामाजिक वानिकी नर्सरी",
+      "gu": "વસ્ત્રાપુર સામાજિક વનીકરણ નર્સરી"
+    },
+    "district": "Ahmedabad",
+    "lat": 23.0315,
+    "lng": 72.5274,
+    "phone": "+917923250920",
+    "address": {
+      "en": "Near Forest Rest House, Vastrapur, Ahmedabad",
+      "hi": "वन विश्राम गृह के पास, वस्त्रापुर, अहमदाबाद",
+      "gu": "વન વિશ્રામ ગૃહ પાસે, વસ્ત્રાપુર, અમદાવાદ"
+    }
+  },
+  {
+    "id": "nursery_junagadh",
+    "name": {
+      "en": "Girnar Range Central Forest Nursery",
+      "hi": "गिरनार रेंज केंद्रीय वन नर्सरी",
+      "gu": "ગિરનાર રેન્જ કેન્દ્રીય વન નર્સરી"
+    },
+    "district": "Junagadh",
+    "lat": 21.5222,
+    "lng": 70.4579,
+    "phone": "+912852630201",
+    "address": {
+      "en": "Girnar Taleti Forest Gate, Junagadh",
+      "hi": "गिरनार तलहटी वन गेट, जूनागढ़",
+      "gu": "ગિરનાર તળેટી વન ગેઇટ, જૂનાગઢ"
+    }
+  },
+  {
+    "id": "nursery_anand",
+    "name": {
+      "en": "Anand Agriculture University Model Nursery",
+      "hi": "आनंद कृषि विश्वविद्यालय मॉडल नर्सरी",
+      "gu": "આણંદ કૃષિ યુનિવર્સિટી મોડેલ નર્સરી"
+    },
+    "district": "Anand",
+    "lat": 22.5645,
+    "lng": 72.9289,
+    "phone": "+912692240301",
+    "address": {
+      "en": "AAU Campus Road, Near Hadgood Gate, Anand",
+      "hi": "एएयू कैंपस रोड, हडगुड गेट के पास, आनंद",
+      "gu": "એ.એ.યુ. કેમ્પસ રોડ, હડગુડ દરવાજા પાસે, આણંદ"
+    }
+  },
+  {
+    "id": "nursery_mehsana",
+    "name": {
+      "en": "Modhera Circle Social Forestry Depot",
+      "hi": "मोढेरा सर्कल सामाजिक वानिकी डिपो",
+      "gu": "મોઢેરા સર્કલ સામાજિક વનીકરણ ડેપો"
+    },
+    "district": "Mehsana",
+    "lat": 23.5880,
+    "lng": 72.3693,
+    "phone": "+912762251402",
+    "address": {
+      "en": "State Highway Road, Near Modhera Circle, Mehsana",
+      "hi": "स्टेट हाईवे रोड, मोढेरा सर्कल के पास, मेहसाणा",
+      "gu": "સ્ટેટ હાઇવે રોડ, મોઢેરા સર્કલ પાસે, મહેસાણા"
+    }
+  },
+  {
+    "id": "nursery_rajkot",
+    "name": {
+      "en": "Rajkot University Road Forestry Nursery",
+      "hi": "राजकोट विश्वविद्यालय मार्ग वानिकी नर्सरी",
+      "gu": "રાજકોટ યુનિવર્સિટી રોડ સામાજિક વનીકરણ નર્સરી"
+    },
+    "district": "Rajkot",
+    "lat": 22.3039,
+    "lng": 70.8022,
+    "phone": "+912812450912",
+    "address": {
+      "en": "University Road, Opp. Forest Division Office, Rajkot",
+      "hi": "विश्वविद्यालय मार्ग, वन प्रभाग कार्यालय के सामने, राजकोट",
+      "gu": "યુનિવર્સિટી રોડ, વન વિભાગ કચેરી સામે, રાજકોટ"
+    }
+  },
+  {
+    "id": "nursery_surat",
+    "name": {
+      "en": "Surat Dumas Road Coastal Nursery",
+      "hi": "सूरत डुमास रोड तटीय नर्सरी",
+      "gu": "સુરત ડુમસ રોડ તટીય નર્સરી"
+    },
+    "district": "Surat",
+    "lat": 21.1415,
+    "lng": 72.7685,
+    "phone": "+912612720145",
+    "address": {
+      "en": "Dumas Road, Near RFO Office, Surat",
+      "hi": "डुमास रोड, आरएफओ कार्यालय के पास, सूरत",
+      "gu": "ડુમસ રોડ, આર.એફ.ઓ. કચેરી પાસે, સુરત"
+    }
+  },
+  {
+    "id": "nursery_vadodara",
+    "name": {
+      "en": "Alkapuri Social Forestry Nursery",
+      "hi": "अलकापुरी सामाजिक वानिकी नर्सरी",
+      "gu": "અલકાપુરી સામાજિક વનીકરણ નર્સરી"
+    },
+    "district": "Vadodara",
+    "lat": 22.3125,
+    "lng": 73.1672,
+    "phone": "+912652433021",
+    "address": {
+      "en": "Near Alkapuri Forestry Officer Quarters, Vadodara",
+      "hi": "अलकापुरी वानिकी अधिकारी आवास के पास, वडोदरा",
+      "gu": "અલકાપુરી ફોરેસ્ટ ઓફિસર ક્વાર્ટર પાસે, વડોદરા"
+    }
+  },
+  {
+    "id": "nursery_kutch",
+    "name": {
+      "en": "Bhuj Desert Forestry Nursery",
+      "hi": "भुज मरुस्थलीय वानिकी नर्सरी",
+      "gu": "ભુજ રણ વનીકરણ નર્સરી"
+    },
+    "district": "Kutch",
+    "lat": 23.2450,
+    "lng": 69.6690,
+    "phone": "+912832220110",
+    "address": {
+      "en": "Near Hamirsar Lake Road, Bhuj, Kutch",
+      "hi": "हमीरसर झील रोड के पास, भुज, कच्छ",
+      "gu": "હમીરસર તળાવ રોડ પાસે, ભુજ, કચ્છ"
+    }
+  },
+  {
+    "id": "nursery_sabarkantha",
+    "name": {
+      "en": "Himatnagar Range Forest Depot",
+      "hi": "हिम्मतनगर रेंज वन डिपो",
+      "gu": "હિંમતનગર રેન્જ ફોરેસ્ટ ડેપો"
+    },
+    "district": "Sabarkantha",
+    "lat": 23.5979,
+    "lng": 72.9620,
+    "phone": "+912772241560",
+    "address": {
+      "en": "Mahavirnagar Forest Office, Himatnagar",
+      "hi": "महावीरनगर वन कार्यालय, हिम्मतनगर",
+      "gu": "મહાવીરનગર વન વિભાગ કચેરી, હિંમતનગર"
+    }
+  },
+  {
+    "id": "nursery_valsad",
+    "name": {
+      "en": "Valsad Coastal Social Forestry Depot",
+      "hi": "वलसाड तटीय सामाजिक वानिकी डिपो",
+      "gu": "વલસાડ તટીય સામાજિક વનીકરણ ડેપો"
+    },
+    "district": "Valsad",
+    "lat": 20.6012,
+    "lng": 72.9154,
+    "phone": "+912632250123",
+    "address": {
+      "en": "Tithal Road, Near Forest Range Depot, Valsad",
+      "hi": "तीथल रोड, वन रेंज डिपो के पास, वलसाड",
+      "gu": "તીથલ રોડ, ફોરેસ્ટ ડેપો પાસે, વલસાડ"
+    }
+  }
+]
